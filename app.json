@@ -7,10 +7,14 @@
     "icon": "./assets/images/icon.png",
     "scheme": "todoclerkapp",
     "userInterfaceStyle": "automatic",
+    "scheme": "myapp",
+    "extra": {
+      "clerkPublishableKey": "pk_test_ZHluYW1pYy1wYW50aGVyLTI2LmNsZXJrLmFjY291bnRzLmRldiQ",
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true
     },
+    
     "android": {
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
@@ -44,5 +48,6 @@
       "typedRoutes": true,
       "reactCompiler": true
     }
+  }
   }
 }
